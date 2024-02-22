@@ -28,7 +28,11 @@
     <div id="expectedValueContainer" class="expected-value-container">
         <button class="nav-button" id="calculateExpectedValueBtn">Calculate Expected Value</button>
         <input type="number" id="betAmount" placeholder="Enter Amount to Bet">
-        <div id="expectedValue"></div>
+        <div>
+            <div id="expectedValue"></div>
+            <div id="payoutMultiplier"></div>
+            <div id="probWinCombined"></div>
+        </div>
     </div>
 
     <ul class="data-holder" id="NHLDataList">
@@ -149,6 +153,10 @@
                     success: function (response) {
                         var expectedValue = response.expectedValue.toFixed(2);
                         $('#expectedValue').text('Expected Value: ' + expectedValue);
+                        var payoutMultiplier = response.payoutMultiplier.toFixed(2);
+                        $('#payoutMultiplier').text('Payout Multiplier: ' + payoutMultiplier);
+                        var probWinCombined = response.probWinCombined.toFixed(2);
+                        $('#probWinCombined').text('Probability of Winning at least 1: ' + probWinCombined);
                     },
                     error: function (xhr, status, error) {
                         alert('Error: ' + error);

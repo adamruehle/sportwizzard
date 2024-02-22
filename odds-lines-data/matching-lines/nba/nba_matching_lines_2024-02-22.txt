@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Jayson Tatum",
+    "proptype": "Assists",
+    "line": 5.5,
+    "odds": -133.0,
+    "type": "Under",
+    "implied_probability": 57.08
+  },
+  {
+    "name": "Alex Caruso",
+    "proptype": "Threes",
+    "line": 1.5,
+    "odds": -128.0,
+    "type": "Under",
+    "implied_probability": 56.14
+  },
+  {
+    "name": "Tyrese Maxey",
+    "proptype": "Rebounds",
+    "line": 3.5,
+    "odds": -128.0,
+    "type": "Under",
+    "implied_probability": 56.14
+  },
+  {
+    "name": "Chet Holmgren",
+    "proptype": "Rebounds",
+    "line": 7.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Jalen Williams",
+    "proptype": "Assists",
+    "line": 4.5,
+    "odds": -127.0,
+    "type": "Under",
+    "implied_probability": 55.95
+  },
+  {
+    "name": "Keyonte George",
+    "proptype": "Assists",
+    "line": 5.5,
+    "odds": -133.0,
+    "type": "Under",
+    "implied_probability": 57.08
+  },
+  {
+    "name": "Russell Westbrook",
+    "proptype": "Rebounds",
+    "line": 4.5,
+    "odds": -128.0,
+    "type": "Under",
+    "implied_probability": 56.14
+  },
+  {
+    "name": "Jordan Poole",
+    "proptype": "Assists",
+    "line": 3.5,
+    "odds": -128.0,
+    "type": "Under",
+    "implied_probability": 56.14
+  },
+  {
+    "name": "Seth Curry",
+    "proptype": "Rebounds",
+    "line": 1.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52
+  },
+  {
+    "name": "Draymond Green",
+    "proptype": "Assists",
+    "line": 6.5,
+    "odds": -130.0,
+    "type": "Under",
+    "implied_probability": 56.52
+  },
+  {
+    "name": "Tre Jones",
+    "proptype": "Threes",
+    "line": 0.5,
+    "odds": -125.0,
+    "type": "Under",
+    "implied_probability": 55.56
+  }
+]

@@ -64,7 +64,7 @@ def fetch_props_for_all_events(api_key, sport, desired_markets, bookmaker_key):
     sport_abbreviation = sport.split("_")[1]
     current_date = datetime.now().strftime("%Y-%m-%d")
     input_file_path = f"odds-lines-data/events/{sport_abbreviation}/{sport_abbreviation}_games_{current_date}.json"
-    output_file_path = f"odds-lines-data/betonline/{sport_abbreviation}/{sport_abbreviation}_odds_{current_date}.csv"
+    output_file_path = f"odds-lines-data/betonline/{sport_abbreviation}/{sport_abbreviation}_betonlline_odds_{current_date}.csv"
     with open(input_file_path, "r") as json_file:
         games_info = json.load(json_file)
     
@@ -177,4 +177,4 @@ def fetch_nhl_odds_and_lines(api_key):
     desired_markets_nhl = [
     "player_points", "player_assists", "player_shots_on_goal", "player_goal_scorer_anytime", "player_total_saves"
     ]
-    return get_events_props_lines(api_key, sport_nhl, desired_markets_nhl, caesars_bookmaker_key)
+    return get_events_props_lines(api_key, sport_nhl, desired_markets_nhl, betonline_bookmaker_key)

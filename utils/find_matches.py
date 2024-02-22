@@ -8,8 +8,8 @@ import math
 def find_matches_nba():
     current_date = datetime.now().strftime("%Y-%m-%d")
     try:
-        df1 = pd.read_csv(f'odds-lines-data/betonline-odds/nba_betonline_odds_{current_date}.csv')
-        df2 = pd.read_csv(f'odds-lines-data/underdog-lines/nba_underdog_lines_{current_date}.csv')
+        df1 = pd.read_csv(f'odds-lines-data/betonline/nba/nba_betonline_odds_{current_date}.csv')
+        df2 = pd.read_csv(f'odds-lines-data/underdog-lines/nba/nba_underdog_lines_{current_date}.csv')
     except KeyError as e:
         print(f"Missing column: {e}")
         exit()
@@ -62,7 +62,7 @@ def find_matches_nba():
                     else:
                         None # no data to compare
     matching_lines = sorted(matching_lines, key=lambda k: k['odds'])
-    matching_lines = [line for line in matching_lines if line['odds'] <= -135]
+    matching_lines = [line for line in matching_lines if line['odds'] <= -125]
     with open(f'odds-lines-data/matching-lines/nba/nba_matching_lines_{current_date}.txt', 'w') as matching_lines_file:
         json.dump(matching_lines, matching_lines_file, indent=2)
     return matching_lines

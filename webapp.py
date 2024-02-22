@@ -64,6 +64,7 @@ def display_nhl_odds_and_picks():
 @app.route('/calculate_expected_value', methods=['POST'])
 def calculate_expected_value():
     data = request.get_json()
+    number_of_props_to_payout_mapping = {"2": 3, "3": 6, "4": 10, "5": 20}
     probabilities = data['probabilities']
     multipliers = data['multipliers']
     bet_amount = data['betAmount']
@@ -76,13 +77,13 @@ def calculate_expected_value():
     # (P(loss))
     prob_lose = 1 - prob_win_combined
     # Calculate the product of multipliers (Payout)
-    expected_payout = 3
+    payout_multiplier = number_of_props_to_payout_mapping[str(len(multipliers))]
     for multiplier in multipliers:
-        expected_payout *= multiplier
+        payout_multiplier *= multiplier
     # Calculate and return the expected value
-    ev = prob_win_combined * expected_payout * bet_amount - prob_lose * bet_amount
+    ev = prob_win_combined * payout_multiplier * bet_amount - prob_lose * bet_amount
     # print(ev)
-    return jsonify({"expectedValue": ev})
+    return jsonify({"expectedValue": ev, "payoutMultiplier": payout_multiplier, "probWinCombined": prob_win_combined})
 
 if __name__ == '__main__':
     app.run(debug=True)

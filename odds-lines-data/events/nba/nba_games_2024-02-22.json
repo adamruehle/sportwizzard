@@ -1,0 +1,110 @@
+{
+  "0": {
+    "event_id": "f54c4a22568ce9dc33fb410d1b0e75e9",
+    "date": "2024-02-22",
+    "time": "19:00:00",
+    "teams": [
+      "Cleveland Cavaliers",
+      "Orlando Magic"
+    ]
+  },
+  "1": {
+    "event_id": "f9f3f99b5124a4ecf984003f0af23d2e",
+    "date": "2024-02-22",
+    "time": "19:10:00",
+    "teams": [
+      "Toronto Raptors",
+      "Brooklyn Nets"
+    ]
+  },
+  "2": {
+    "event_id": "bbd989c38fb4fc92248cdabcf72ab9e6",
+    "date": "2024-02-22",
+    "time": "19:10:00",
+    "teams": [
+      "Indiana Pacers",
+      "Detroit Pistons"
+    ]
+  },
+  "3": {
+    "event_id": "238b7c427608c3507f9b7e5bdad8b907",
+    "date": "2024-02-22",
+    "time": "19:10:00",
+    "teams": [
+      "Philadelphia 76ers",
+      "New York Knicks"
+    ]
+  },
+  "4": {
+    "event_id": "c5b55944a81be036f764be503c0ddd36",
+    "date": "2024-02-22",
+    "time": "19:30:00",
+    "teams": [
+      "Dallas Mavericks",
+      "Phoenix Suns"
+    ]
+  },
+  "5": {
+    "event_id": "806bf8db6e8cafa62ddb55e7df58b06e",
+    "date": "2024-02-22",
+    "time": "20:00:00",
+    "teams": [
+      "New Orleans Pelicans",
+      "Houston Rockets"
+    ]
+  },
+  "6": {
+    "event_id": "8ac6e6d1660ca15b05a9fd0c0954fcfd",
+    "date": "2024-02-22",
+    "time": "20:10:00",
+    "teams": [
+      "Chicago Bulls",
+      "Boston Celtics"
+    ]
+  },
+  "7": {
+    "event_id": "438de9f441f237bbd739df3936c24494",
+    "date": "2024-02-22",
+    "time": "20:10:00",
+    "teams": [
+      "Oklahoma City Thunder",
+      "Los Angeles Clippers"
+    ]
+  },
+  "8": {
+    "event_id": "7ff47422d6625afda9544e899462ff06",
+    "date": "2024-02-22",
+    "time": "21:10:00",
+    "teams": [
+      "Utah Jazz",
+      "Charlotte Hornets"
+    ]
+  },
+  "9": {
+    "event_id": "56595ed6f5bc3a306a831775053f21eb",
+    "date": "2024-02-22",
+    "time": "21:10:00",
+    "teams": [
+      "Denver Nuggets",
+      "Washington Wizards"
+    ]
+  },
+  "10": {
+    "event_id": "0c47a6377ec36746b784609fafa4e25e",
+    "date": "2024-02-22",
+    "time": "22:00:00",
+    "teams": [
+      "Golden State Warriors",
+      "Los Angeles Lakers"
+    ]
+  },
+  "11": {
+    "event_id": "2a8c97bf2b28cdaf22c43a433f77a9c8",
+    "date": "2024-02-22",
+    "time": "22:10:00",
+    "teams": [
+      "Sacramento Kings",
+      "San Antonio Spurs"
+    ]
+  }
+}
